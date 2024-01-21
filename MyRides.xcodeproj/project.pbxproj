@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		9205F8292B58453600B62B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9205F8282B58453600B62B32 /* AppDelegate.swift */; };
 		9205F82B2B58453600B62B32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9205F82A2B58453600B62B32 /* SceneDelegate.swift */; };
-		9205F82D2B58453600B62B32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9205F82C2B58453600B62B32 /* ViewController.swift */; };
-		9205F8302B58453600B62B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9205F82E2B58453600B62B32 /* Main.storyboard */; };
 		9205F8322B58453800B62B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9205F8312B58453800B62B32 /* Assets.xcassets */; };
 		9205F8352B58453800B62B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9205F8332B58453800B62B32 /* LaunchScreen.storyboard */; };
+		9205F83E2B5846B000B62B32 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9205F83D2B5846B000B62B32 /* SnapKit */; };
+		9205F8402B5846B000B62B32 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 9205F83F2B5846B000B62B32 /* SnapKit-Dynamic */; };
+		9205F8422B58470300B62B32 /* MyRidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9205F8412B58470300B62B32 /* MyRidesViewController.swift */; };
+		9205F8482B584D9200B62B32 /* UINavigationBarAppearance+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9205F8472B584D9200B62B32 /* UINavigationBarAppearance+Utility.swift */; };
+		9205F84A2B584E0A00B62B32 /* UIColor+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9205F8492B584E0A00B62B32 /* UIColor+Utility.swift */; };
+		9205F84C2B58539300B62B32 /* RideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9205F84B2B58539300B62B32 /* RideCell.swift */; };
+		9205F84E2B5855CB00B62B32 /* UICollectionViewCell+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9205F84D2B5855CB00B62B32 /* UICollectionViewCell+Utility.swift */; };
+		9205F8502B587FB900B62B32 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9205F84F2B587FB900B62B32 /* Trip.swift */; };
+		9205F8522B58881B00B62B32 /* DateFormatter+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9205F8512B58881B00B62B32 /* DateFormatter+Utility.swift */; };
+		9205F8542B598C5500B62B32 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9205F8532B598C5500B62B32 /* APIClient.swift */; };
+		9223C7542B5C27C40003B9BF /* AddressListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9223C7532B5C27C40003B9BF /* AddressListView.swift */; };
+		9223C7562B5C40E70003B9BF /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9223C7552B5C40E70003B9BF /* AlertViewController.swift */; };
+		9286ED162B59AB270064ECC0 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9286ED152B59AB270064ECC0 /* AppConfiguration.swift */; };
+		9286ED182B59C4E20064ECC0 /* RideHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9286ED172B59C4E20064ECC0 /* RideHeaderView.swift */; };
+		9286ED1A2B59C6710064ECC0 /* MyRidesViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9286ED192B59C6710064ECC0 /* MyRidesViewController+Layout.swift */; };
+		9286ED202B5AFA580064ECC0 /* RideDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9286ED1F2B5AFA580064ECC0 /* RideDetailsViewController.swift */; };
+		9286ED232B5AFADF0064ECC0 /* MyRides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9286ED222B5AFADF0064ECC0 /* MyRides.swift */; };
+		9286ED292B5B07770064ECC0 /* SimpleLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9286ED282B5B07770064ECC0 /* SimpleLabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9205F8252B58453600B62B32 /* MyRides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9205F8282B58453600B62B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9205F82A2B58453600B62B32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9205F82C2B58453600B62B32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9205F82F2B58453600B62B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9205F8312B58453800B62B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9205F8342B58453800B62B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9205F8362B58453800B62B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9205F8412B58470300B62B32 /* MyRidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRidesViewController.swift; sourceTree = "<group>"; };
+		9205F8472B584D9200B62B32 /* UINavigationBarAppearance+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBarAppearance+Utility.swift"; sourceTree = "<group>"; };
+		9205F8492B584E0A00B62B32 /* UIColor+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Utility.swift"; sourceTree = "<group>"; };
+		9205F84B2B58539300B62B32 /* RideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideCell.swift; sourceTree = "<group>"; };
+		9205F84D2B5855CB00B62B32 /* UICollectionViewCell+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Utility.swift"; sourceTree = "<group>"; };
+		9205F84F2B587FB900B62B32 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		9205F8512B58881B00B62B32 /* DateFormatter+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Utility.swift"; sourceTree = "<group>"; };
+		9205F8532B598C5500B62B32 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		9223C7532B5C27C40003B9BF /* AddressListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListView.swift; sourceTree = "<group>"; };
+		9223C7552B5C40E70003B9BF /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		9286ED152B59AB270064ECC0 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		9286ED172B59C4E20064ECC0 /* RideHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideHeaderView.swift; sourceTree = "<group>"; };
+		9286ED192B59C6710064ECC0 /* MyRidesViewController+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyRidesViewController+Layout.swift"; sourceTree = "<group>"; };
+		9286ED1F2B5AFA580064ECC0 /* RideDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetailsViewController.swift; sourceTree = "<group>"; };
+		9286ED222B5AFADF0064ECC0 /* MyRides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRides.swift; sourceTree = "<group>"; };
+		9286ED282B5B07770064ECC0 /* SimpleLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9205F83E2B5846B000B62B32 /* SnapKit in Frameworks */,
+				9205F8402B5846B000B62B32 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +88,101 @@
 		9205F8272B58453600B62B32 /* MyRides */ = {
 			isa = PBXGroup;
 			children = (
+				9286ED1B2B59EF360064ECC0 /* Shared */,
+				9205F8462B584D6400B62B32 /* Utilities */,
+				9205F8432B584AF300B62B32 /* MyRides */,
+				9286ED1E2B5AFA180064ECC0 /* RideDetails */,
 				9205F8282B58453600B62B32 /* AppDelegate.swift */,
 				9205F82A2B58453600B62B32 /* SceneDelegate.swift */,
-				9205F82C2B58453600B62B32 /* ViewController.swift */,
-				9205F82E2B58453600B62B32 /* Main.storyboard */,
 				9205F8312B58453800B62B32 /* Assets.xcassets */,
 				9205F8332B58453800B62B32 /* LaunchScreen.storyboard */,
 				9205F8362B58453800B62B32 /* Info.plist */,
 			);
 			path = MyRides;
+			sourceTree = "<group>";
+		};
+		9205F8432B584AF300B62B32 /* MyRides */ = {
+			isa = PBXGroup;
+			children = (
+				9286ED272B5B00360064ECC0 /* Views */,
+				9286ED242B5AFE220064ECC0 /* ViewController */,
+				9286ED212B5AFAD00064ECC0 /* Model */,
+			);
+			path = MyRides;
+			sourceTree = "<group>";
+		};
+		9205F8462B584D6400B62B32 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9205F8472B584D9200B62B32 /* UINavigationBarAppearance+Utility.swift */,
+				9205F8492B584E0A00B62B32 /* UIColor+Utility.swift */,
+				9205F84D2B5855CB00B62B32 /* UICollectionViewCell+Utility.swift */,
+				9205F8512B58881B00B62B32 /* DateFormatter+Utility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9286ED1B2B59EF360064ECC0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9205F8532B598C5500B62B32 /* APIClient.swift */,
+				9286ED152B59AB270064ECC0 /* AppConfiguration.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		9286ED1E2B5AFA180064ECC0 /* RideDetails */ = {
+			isa = PBXGroup;
+			children = (
+				9286ED262B5B002D0064ECC0 /* Views */,
+				9286ED252B5B00250064ECC0 /* ViewController */,
+			);
+			path = RideDetails;
+			sourceTree = "<group>";
+		};
+		9286ED212B5AFAD00064ECC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9286ED222B5AFADF0064ECC0 /* MyRides.swift */,
+				9205F84F2B587FB900B62B32 /* Trip.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9286ED242B5AFE220064ECC0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9205F8412B58470300B62B32 /* MyRidesViewController.swift */,
+				9286ED192B59C6710064ECC0 /* MyRidesViewController+Layout.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9286ED252B5B00250064ECC0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9286ED1F2B5AFA580064ECC0 /* RideDetailsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9286ED262B5B002D0064ECC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9286ED282B5B07770064ECC0 /* SimpleLabelView.swift */,
+				9223C7532B5C27C40003B9BF /* AddressListView.swift */,
+				9223C7552B5C40E70003B9BF /* AlertViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9286ED272B5B00360064ECC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9205F84B2B58539300B62B32 /* RideCell.swift */,
+				9286ED172B59C4E20064ECC0 /* RideHeaderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +201,10 @@
 			dependencies = (
 			);
 			name = MyRides;
+			packageProductDependencies = (
+				9205F83D2B5846B000B62B32 /* SnapKit */,
+				9205F83F2B5846B000B62B32 /* SnapKit-Dynamic */,
+			);
 			productName = MyRides;
 			productReference = 9205F8252B58453600B62B32 /* MyRides.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +233,9 @@
 				Base,
 			);
 			mainGroup = 9205F81C2B58453600B62B32;
+			packageReferences = (
+				9205F83C2B5846B000B62B32 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 9205F8262B58453600B62B32 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +252,6 @@
 			files = (
 				9205F8352B58453800B62B32 /* LaunchScreen.storyboard in Resources */,
 				9205F8322B58453800B62B32 /* Assets.xcassets in Resources */,
-				9205F8302B58453600B62B32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +262,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9205F82D2B58453600B62B32 /* ViewController.swift in Sources */,
+				9205F8482B584D9200B62B32 /* UINavigationBarAppearance+Utility.swift in Sources */,
+				9205F84C2B58539300B62B32 /* RideCell.swift in Sources */,
+				9286ED292B5B07770064ECC0 /* SimpleLabelView.swift in Sources */,
+				9205F84E2B5855CB00B62B32 /* UICollectionViewCell+Utility.swift in Sources */,
+				9223C7562B5C40E70003B9BF /* AlertViewController.swift in Sources */,
+				9205F8542B598C5500B62B32 /* APIClient.swift in Sources */,
 				9205F8292B58453600B62B32 /* AppDelegate.swift in Sources */,
+				9286ED232B5AFADF0064ECC0 /* MyRides.swift in Sources */,
+				9286ED162B59AB270064ECC0 /* AppConfiguration.swift in Sources */,
+				9286ED202B5AFA580064ECC0 /* RideDetailsViewController.swift in Sources */,
+				9205F8502B587FB900B62B32 /* Trip.swift in Sources */,
+				9205F84A2B584E0A00B62B32 /* UIColor+Utility.swift in Sources */,
+				9223C7542B5C27C40003B9BF /* AddressListView.swift in Sources */,
+				9205F8522B58881B00B62B32 /* DateFormatter+Utility.swift in Sources */,
+				9205F8422B58470300B62B32 /* MyRidesViewController.swift in Sources */,
+				9286ED1A2B59C6710064ECC0 /* MyRidesViewController+Layout.swift in Sources */,
 				9205F82B2B58453600B62B32 /* SceneDelegate.swift in Sources */,
+				9286ED182B59C4E20064ECC0 /* RideHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9205F82E2B58453600B62B32 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9205F82F2B58453600B62B32 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9205F8332B58453800B62B32 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +427,6 @@
 				INFOPLIST_FILE = MyRides/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,6 +436,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.anthonymarasia.MyRides;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,7 +457,6 @@
 				INFOPLIST_FILE = MyRides/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,6 +466,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.anthonymarasia.MyRides;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -361,6 +498,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9205F83C2B5846B000B62B32 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9205F83D2B5846B000B62B32 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9205F83C2B5846B000B62B32 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		9205F83F2B5846B000B62B32 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9205F83C2B5846B000B62B32 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9205F81D2B58453600B62B32 /* Project object */;
 }
